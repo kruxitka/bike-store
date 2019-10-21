@@ -78,7 +78,7 @@ class Cart {
         ev.preventDefault();
         fetch('order', {
           method: 'POST',
-          acction: 'https://formspree.io/kruxitka@gmail.com',
+          action: 'https://formspree.io/kruxitka@gmail.com',
           headers: {
             'Content-Type': 'application/json'
           },
