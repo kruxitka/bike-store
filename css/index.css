@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Montserrat|Archivo+Black|Bree+Serif|Bungee|Courgette|Finger+Paint|Fredoka+One|Josefin+Sans|Luckiest+Guy|Monda|Signika|Wendy+One&display=swap");
+:root {
+  font-family: "Montserrat", sans-serif;
+  --main-color: black;
+  scroll-behavior: smooth;
+}
+
+/*header, main, footer {
+  max-width: 1100px;
+  margin: auto;
+}*/
+
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  padding-top: 0rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f53838;
+}
+@media (min-width: 992px) {
+.navbar-expand-lg {
+  padding: 0rem;
+}
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: #f53838;
+}
+
+/*.navbar-nav {
+  
+  color: var(--main-color);
+  
+  justify-content: space-between;
+}
+
+/*#navbarNav {
+
+  padding: 0;
+  margin-top: 1rem;
+  list-style-type: none;
+  flex: 1;
+}
+
+.
+.collapse a:hover {
+  color: #f53838;
+}
+
+
+
+/*.shopping_cart img {
+  height: 25px;
+  width: 25px;
+}
+
+h2 {
+  margin-top: 1rem;
+}
+@media (min-width: 500px) {
+  header nav {
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+.product {
+  margin: 10px;
+  padding: 1rem;
+  transition: box-shadow 0.3s;
+  background: #fff;
+  float: left;
+}
+
+
+article.product img {
+  display: block;
+  width: 100%;
+}
+
+
+
+.product h4 {
+  display: flex;
+  justify-content: center;
+  height: 3rem;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 640px) {
+  .product_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+}
+
+@media (min-width: 960px) {
+  .product_list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}*/
+
+/*@media only screen and (max-width: 576px) {
+  .carousel-caption h1 {
+          font-size: 60px;
+  }
+}
+
+.btn {
+try to remove border for buttons
+}*/
+
+
+
+.social {
+  text-align: center;
+}
+
+.subscribe input {
+  display: flex;
+}
+
+
+.social p {
+  margin: 6px;
+}
+
+.carousel-caption {
+  top: 10%;
+  left: 20%;
+  bottom: auto;
+  font-family: "Lato", sans-serif;
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+
+.product:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.card-body h4 {
+  height: 3rem;
+}
+
+.card-body .btn {
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  border-color: transparent;
+}
+
+.alert {
+  position: fixed;
+  top: 50px; 
+  width: 50%;
+  left: 25%;
+  z-index: 1051;
+}
